@@ -11,6 +11,7 @@ int Solution::orangesRotting(vector<vector<int>> &grids)
     queue<pair<int, int>> rotten;
     int minutes = 0;
     int fresh = 0;
+    // iterate on grids, find initial rotten oranges
     for (auto i = 0; i < rows; ++i)
     {
         for (auto j = 0; j < cols; ++j)
@@ -34,8 +35,9 @@ int Solution::orangesRotting(vector<vector<int>> &grids)
         return -1;
     while (!rotten.empty() && fresh > 0)
     {
-        size_t cur_rotten = rotten.size();
-        for (auto idx = 0; idx < cur_rotten; ++idx)
+        size_t cur_rotten_num = rotten.size();
+        // iterate on current rotten cells, update status in surrounding cells
+        for (auto idx = 0; idx < cur_rotten_num; ++idx)
         {
             int i = rotten.front().first;
             int j = rotten.front().second;
