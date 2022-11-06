@@ -1,5 +1,5 @@
-#ifndef MY_SOLUTIONS_DP_H
-#define MY_SOLUTIONS_DP_H
+#ifndef MY_SOLUTIONS_BFS_H
+#define MY_SOLUTIONS_BFS_H
 
 #include <vector>
 

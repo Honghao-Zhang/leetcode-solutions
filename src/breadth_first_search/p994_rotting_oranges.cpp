@@ -1,4 +1,4 @@
-#include "breadth_first_search/bfs.h"
+#include "bfs.h"
 #include <queue>
 #include <utility>
 
