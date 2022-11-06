@@ -5,7 +5,7 @@
 
 using namespace std;
 
-namespace dp
+namespace bfs
 {
     class Solution
     {
