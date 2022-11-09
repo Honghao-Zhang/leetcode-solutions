@@ -1,4 +1,4 @@
-#include "bfs.h"
+#include "breadth_first_search/bfs.h"
 #include <gtest/gtest.h>
 
 TEST(RottingOranges, example_1)
