@@ -22,3 +22,22 @@ std::vector<int> binary_tree::breadthFirstTraversal(TreeNode *root)
     }
     return results;
 }
+
+binary_tree::TreeNode *createTree(std::vector<std::string> &strArry, int idx)
+{
+    if (idx >= strArry.size() || idx < 0)
+        return nullptr;
+    if (strArry.at(idx) == "null")
+        return nullptr;
+    binary_tree::TreeNode *cur = new binary_tree::TreeNode(std::stoi(strArry.at(idx)));
+    cur->left = createTree(strArry, 2 * idx + 1);
+    cur->right = createTree(strArry, 2 * idx + 2);
+    return cur;
+}
+
+binary_tree::TreeNode *binary_tree::createTreeFromStrArray(std::vector<std::string> strArry)
+{
+    if (strArry.empty())
+        return nullptr;
+    return createTree(strArry, 0);
+}

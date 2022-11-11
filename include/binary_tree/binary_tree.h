@@ -2,6 +2,7 @@
 #define MY_SOLUTIONS_BINARY_TREE_H
 
 #include <vector>
+#include <string>
 
 namespace binary_tree
 {
@@ -16,12 +17,16 @@ namespace binary_tree
     };
 
     std::vector<int> breadthFirstTraversal(TreeNode *root);
+    // This function creates a binary tree from inputs like [10,5,-3,3,2,null,11,3,-2,null,1]
+    TreeNode *createTreeFromStrArray(std::vector<std::string> strArry);
 
     class Solution
     {
     public:
         // 108. Convert Sorted Array to Binary Search Tree
         TreeNode *sortedArrayToBST(std::vector<int> &nums);
+        // 437. Path Sum III
+        int pathSum3(TreeNode *root, int targetSum);
     };
 };
 

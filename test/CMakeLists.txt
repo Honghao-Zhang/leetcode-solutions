@@ -5,6 +5,7 @@ set(TARGET_NAME ${PROJECT_NAME}_test)
 add_executable(${TARGET_NAME}
     ./breadth_first_search/p994_rotting_oranges_test.cpp
     ./binary_tree/p108_convert_sorted_array_test.cpp
+    ./binary_tree/p437_path_sum_test.cpp
     ./matrix/p240_search_2d_matrix_test.cpp
 )
 
