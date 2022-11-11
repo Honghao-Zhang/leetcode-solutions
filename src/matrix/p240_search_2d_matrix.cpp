@@ -34,6 +34,7 @@ bool searchSubmatrix(std::vector<std::vector<int>> &matrix, int target, int star
     return false;
 }
 // solution 2: use 2D coordinates
+// source: https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/2324328/java-5-approaches-bf-searchrow-searchdiagonal-row-col-searchglobal-2d-coord-axis
 bool searchLinearFromUpRightCorner(std::vector<std::vector<int>> &matrix, int target)
 {
     int m = matrix.size(), n = matrix.at(0).size();
