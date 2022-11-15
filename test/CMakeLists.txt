@@ -7,6 +7,7 @@ add_executable(${TARGET_NAME}
     ./binary_tree/p108_convert_sorted_array_test.cpp
     ./binary_tree/p437_path_sum_test.cpp
     ./matrix/p240_search_2d_matrix_test.cpp
+    ./heap/p295_find_median_from_data_stream_test.cpp
 )
 
 target_link_libraries(${TARGET_NAME}
