@@ -2,8 +2,7 @@
 #define MY_SOLUTIONS_BFS_H
 
 #include <vector>
-
-using namespace std;
+#include <string>
 
 namespace bfs
 {
@@ -11,7 +10,9 @@ namespace bfs
     {
     public:
         // 994 rotting oranges
-        int orangesRotting(vector<vector<int>> &grid);
+        int orangesRotting(std::vector<std::vector<int>> &grid);
+        // 79 word search
+        bool exist(std::vector<std::vector<char>> &board, std::string word);
     };
 };
 
