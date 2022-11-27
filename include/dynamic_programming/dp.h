@@ -15,6 +15,8 @@ namespace dp
         std::vector<int> pathOfLIS(std::vector<int> &nums);
         // 1143 longest common subsequence
         int longestCommonSubsequence(std::string text1, std::string text2);
+        // low points
+        int sizeOfBiggestLowArea(std::vector<std::vector<int>> matrix);
     };
 }
 
