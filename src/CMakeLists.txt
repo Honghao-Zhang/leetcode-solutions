@@ -1,8 +1,9 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-    ./dynamic_programming/matrix_low_points.cpp
+    ./substring/p139_word_break.cpp
 
+    # ./dynamic_programming/matrix_low_points.cpp
     # ./dynamic_programming/p1143_longest_common_subsequence.cpp
     # ./substring/p76_minimum_window_substring.cpp
     # ./breadth_first_search/p79_word_search.cpp
