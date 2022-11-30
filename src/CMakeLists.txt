@@ -1,6 +1,7 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
+	./backtracking/p52_n_queens_ii.cpp
     ./backtracking/p51_n_queens.cpp
 
     # ./substring/p139_word_break.cpp

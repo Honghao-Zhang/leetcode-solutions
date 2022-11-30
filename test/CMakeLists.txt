@@ -3,6 +3,7 @@ find_package(GTest REQUIRED)
 set(TARGET_NAME ${PROJECT_NAME}_test)
 
 add_executable(${TARGET_NAME}
+	./backtracking/p52_n_queens_ii_test.cpp
     ./backtracking/p51_n_queens_test.cpp
 
     # ./substring/p139_word_break_test.cpp

@@ -9,6 +9,8 @@ namespace backtracking
 	public:
 		// 51 N Queens
 		std::vector<std::vector<std::string>> solveNQueens(int n);
+		// 52 N Queens II
+		int totalNQueens(int n);
 	};
 };
 #endif
