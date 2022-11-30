@@ -3,8 +3,9 @@ find_package(GTest REQUIRED)
 set(TARGET_NAME ${PROJECT_NAME}_test)
 
 add_executable(${TARGET_NAME}
-    ./substring/p139_word_break_test.cpp
+    ./backtracking/p51_n_queens_test.cpp
 
+    # ./substring/p139_word_break_test.cpp
     # ./dynamic_programming/matrix_low_points_test.cpp
     # ./dynamic_programming/p1143_longest_common_subsequence_test.cpp
     # ./substring/p76_minimum_window_substring_test.cpp
