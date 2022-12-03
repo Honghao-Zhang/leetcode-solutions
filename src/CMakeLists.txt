@@ -1,9 +1,10 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-	./backtracking/p52_n_queens_ii.cpp
-    ./backtracking/p51_n_queens.cpp
+    ./backtracking/p131_palindrome_partitioning.cpp
 
+    # ./backtracking/p52_n_queens_ii.cpp
+    # ./backtracking/p51_n_queens.cpp
     # ./substring/p139_word_break.cpp
     # ./dynamic_programming/matrix_low_points.cpp
     # ./dynamic_programming/p1143_longest_common_subsequence.cpp

@@ -11,6 +11,8 @@ namespace backtracking
 		std::vector<std::vector<std::string>> solveNQueens(int n);
 		// 52 N Queens II
 		int totalNQueens(int n);
+		// 131 palindome partioning
+		std::vector<std::vector<std::string>> partition(std::string s);
 	};
 };
 #endif
