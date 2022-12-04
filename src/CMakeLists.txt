@@ -1,6 +1,7 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
+	./graph/p207_course_schedule.cpp
     ./backtracking/p131_palindrome_partitioning.cpp
 
     # ./backtracking/p52_n_queens_ii.cpp
