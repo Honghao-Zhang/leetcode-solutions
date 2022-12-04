@@ -9,5 +9,7 @@ namespace my_array
     std::vector<int> findMaxSumSubarray(std::vector<int> &nums);
     // 189. rotate array
     void rotate(std::vector<int> &nums, int k);
+    // 239. sliding window maximum
+    std::vector<int> maxSlidingWindow(std::vector<int> &nums, int k);
 }
 #endif

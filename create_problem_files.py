@@ -19,8 +19,7 @@ def createHeader(name, folder, namespace='default'):
             header_file.write('\t{\n')
             header_file.write('\t'+'public:\n')
             header_file.write('\t};\n')
-            header_file.write('}\n')
-            header_file.write('\n')
+            header_file.write('};\n')
             header_file.write('#endif\n')
     else:
         print(name+'.h already exists!')
@@ -67,10 +66,10 @@ def createSourceFile(name, folder, header_name, namespace='default', is_test_fil
             
              
 if __name__ == '__main__':
-    problem_type = 'breadth_first_search'
-    header_name = 'bfs'
-    problem_name = 'p79_word_search'
-    namespace    = 'bfs'
+    problem_type = 'array'
+    header_name  = 'array'
+    problem_name = 'p239_sliding_window_maximum'
+    namespace    = 'my_array'
     createHeader(header_name, problem_type, namespace)
     createSourceFile(problem_name, problem_type, header_name, namespace)
     createSourceFile(problem_name+'_test', problem_type, header_name, namespace, True)

@@ -1,7 +1,9 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-    ./hash/p208_implement_trie.cpp
+    ./array/p239_sliding_window_maximum.cpp
+
+    # ./hash/p208_implement_trie.cpp
 
     # ./graph/p207_course_schedule.cpp
     # ./backtracking/p131_palindrome_partitioning.cpp
