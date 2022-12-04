@@ -1,9 +1,10 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-	./graph/p207_course_schedule.cpp
-    ./backtracking/p131_palindrome_partitioning.cpp
+    ./hash/p208_implement_trie.cpp
 
+    # ./graph/p207_course_schedule.cpp
+    # ./backtracking/p131_palindrome_partitioning.cpp
     # ./backtracking/p52_n_queens_ii.cpp
     # ./backtracking/p51_n_queens.cpp
     # ./substring/p139_word_break.cpp
