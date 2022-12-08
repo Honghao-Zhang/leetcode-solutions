@@ -1,8 +1,10 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-    ./dynamic_programming/p279_perfect_squares.cpp
+    ./bit_operations/bit_and_oppsite_number.cpp
 
+    # ./greedy/p300_longest_increasing_subsequence.cpp
+    # ./dynamic_programming/p279_perfect_squares.cpp
     # ./array/p239_sliding_window_maximum.cpp
     # ./hash/p208_implement_trie.cpp
     # ./graph/p207_course_schedule.cpp
