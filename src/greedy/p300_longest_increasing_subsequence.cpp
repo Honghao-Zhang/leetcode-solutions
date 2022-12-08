@@ -1,4 +1,5 @@
 #include "greedy/greedy.h"
+#include <iostream>
 #include <algorithm>
 using namespace std;
 using namespace greedy;
@@ -170,5 +171,12 @@ int solution_3_not_work(vector<int> &nums)
 int Solution::lengthOfLIS(std::vector<int> &nums)
 {
     vector<int> path;
-    return solution_1_with_path_updated(nums, path);
+    int ans = solution_1_with_path_updated(nums, path);
+    std::cout << "LIS is : [";
+    for (auto i : path)
+    {
+        std::cout << i << ", ";
+    }
+    std::cout << "]" << std::endl;
+    return ans;
 }
