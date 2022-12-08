@@ -66,10 +66,10 @@ def createSourceFile(name, folder, header_name, namespace='default', is_test_fil
             
              
 if __name__ == '__main__':
-    problem_type = 'array'
-    header_name  = 'array'
-    problem_name = 'p239_sliding_window_maximum'
-    namespace    = 'my_array'
+    problem_type = 'dynamic_programming'
+    header_name  = 'dp'
+    problem_name = 'p279_perfect_squares'
+    namespace    = 'dp'
     createHeader(header_name, problem_type, namespace)
     createSourceFile(problem_name, problem_type, header_name, namespace)
     createSourceFile(problem_name+'_test', problem_type, header_name, namespace, True)

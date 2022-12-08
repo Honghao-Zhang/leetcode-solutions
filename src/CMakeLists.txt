@@ -1,10 +1,10 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-    ./array/p239_sliding_window_maximum.cpp
+    ./dynamic_programming/p279_perfect_squares.cpp
 
+    # ./array/p239_sliding_window_maximum.cpp
     # ./hash/p208_implement_trie.cpp
-
     # ./graph/p207_course_schedule.cpp
     # ./backtracking/p131_palindrome_partitioning.cpp
     # ./backtracking/p52_n_queens_ii.cpp

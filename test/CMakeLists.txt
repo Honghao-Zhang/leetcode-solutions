@@ -3,10 +3,10 @@ find_package(GTest REQUIRED)
 set(TARGET_NAME ${PROJECT_NAME}_test)
 
 add_executable(${TARGET_NAME}
-    ./array/p239_sliding_window_maximum_test.cpp
+    ./dynamic_programming/p279_perfect_squares_test.cpp
 
+    # ./array/p239_sliding_window_maximum_test.cpp
     # ./hash/p208_implement_trie_test.cpp
-
     # ./graph/p207_course_schedule_test.cpp
     # ./backtracking/p131_palindrome_partitioning_test.cpp
     # ./backtracking/p52_n_queens_ii_test.cpp

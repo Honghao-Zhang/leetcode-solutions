@@ -17,6 +17,8 @@ namespace dp
         int longestCommonSubsequence(std::string text1, std::string text2);
         // low points
         int sizeOfBiggestLowArea(std::vector<std::vector<int>> matrix);
+        // 279 perfect squares
+        int numSquares(int n);
     };
 }
 
