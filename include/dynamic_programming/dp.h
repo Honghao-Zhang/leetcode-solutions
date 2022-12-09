@@ -19,6 +19,8 @@ namespace dp
         int sizeOfBiggestLowArea(std::vector<std::vector<int>> matrix);
         // 279 perfect squares
         int numSquares(int n);
+        // 438 find all anagrams in a string
+        std::vector<int> findAnagrams(std::string s, std::string p);
     };
 }
 

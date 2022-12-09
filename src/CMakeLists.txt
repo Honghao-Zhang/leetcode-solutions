@@ -1,8 +1,9 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-    ./bit_operations/bit_and_oppsite_number.cpp
+    ./dynamic_programming/438_find_all_anagrams.cpp
 
+    # ./bit_operations/bit_and_oppsite_number.cpp
     # ./greedy/p300_longest_increasing_subsequence.cpp
     # ./dynamic_programming/p279_perfect_squares.cpp
     # ./array/p239_sliding_window_maximum.cpp
