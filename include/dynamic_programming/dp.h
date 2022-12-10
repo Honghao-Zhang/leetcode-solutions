@@ -21,6 +21,8 @@ namespace dp
         int numSquares(int n);
         // 438 find all anagrams in a string
         std::vector<int> findAnagrams(std::string s, std::string p);
+        // 416 partition equal subset sum
+        bool canPartition(std::vector<int> &nums);
     };
 }
 
