@@ -3,10 +3,10 @@ find_package(GTest REQUIRED)
 set(TARGET_NAME ${PROJECT_NAME}_test)
 
 add_executable(${TARGET_NAME}
-    ./dynamic_programming/416_partition_equal_subset_sum_test.cpp
+    ./string/394_decode_string_test.cpp
 
+    # ./dynamic_programming/416_partition_equal_subset_sum_test.cpp
     # ./dynamic_programming/438_find_all_anagrams_test.cpp
-
     # ./bit_operations/bit_and_oppsite_number_test.cpp
     # ./greedy/p300_longest_increasing_subsequence_test.cpp
     # ./dynamic_programming/p279_perfect_squares_test.cpp

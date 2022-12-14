@@ -1,7 +1,8 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-    ./dynamic_programming/416_partition_equal_subset_sum.cpp
+	./string/394_decode_string.cpp
+    #./dynamic_programming/416_partition_equal_subset_sum.cpp
 
     # ./dynamic_programming/438_find_all_anagrams.cpp
 
