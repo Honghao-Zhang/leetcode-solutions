@@ -1,11 +1,14 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-	./string/394_decode_string.cpp
-    #./dynamic_programming/416_partition_equal_subset_sum.cpp
+    ./dynamic_programming/213_house_robber_ii.cpp
 
+    # ./dynamic_programming/407_trapping_rain_water_ii.cpp
+    # ./dynamic_programming/42_trapping_rain_water.cpp
+
+    # ./string/394_decode_string.cpp
+    # ./dynamic_programming/416_partition_equal_subset_sum.cpp
     # ./dynamic_programming/438_find_all_anagrams.cpp
-
     # ./bit_operations/bit_and_oppsite_number.cpp
     # ./greedy/p300_longest_increasing_subsequence.cpp
     # ./dynamic_programming/p279_perfect_squares.cpp

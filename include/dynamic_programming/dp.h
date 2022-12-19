@@ -6,6 +6,24 @@
 
 namespace dp
 {
+    struct Cell
+    {
+        int x, h;
+        Cell(int xx, int hh) : x(xx), h(hh) {}
+        bool operator<(const Cell &rhs) const
+        {
+            return this->h > rhs.h;
+        }
+    };
+    struct Cell2D
+    {
+        int x, y, h;
+        Cell2D(int xx, int yy, int hh) : x(xx), y(yy), h(hh) {}
+        bool operator<(const Cell2D &rhs) const
+        {
+            return this->h > rhs.h;
+        }
+    };
     class Solution
     {
     public:
@@ -23,6 +41,12 @@ namespace dp
         std::vector<int> findAnagrams(std::string s, std::string p);
         // 416 partition equal subset sum
         bool canPartition(std::vector<int> &nums);
+        // 42 trapping rain water
+        int trap(std::vector<int> &height);
+        // 407 trapping rain water ii
+        int trapRainWater(std::vector<std::vector<int>> &heightMap);
+        // 213 house robber ii
+        int rob(std::vector<int> &nums);
     };
 }
 
