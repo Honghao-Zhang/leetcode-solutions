@@ -3,11 +3,13 @@ find_package(GTest REQUIRED)
 set(TARGET_NAME ${PROJECT_NAME}_test)
 
 add_executable(${TARGET_NAME}
-    ./dynamic_programming/213_house_robber_ii_test.cpp
+    ./backtracking/p22_generate_parentheses_test.cpp
 
+    # ./dynamic_programming/p5_longest_palindromic_substring_test.cpp
+    # ./backtracking/91_decode_ways_test.cpp
+    # ./dynamic_programming/213_house_robber_ii_test.cpp
     # ./dynamic_programming/407_trapping_rain_water_ii_test.cpp
     # ./dynamic_programming/42_trapping_rain_water_test.cpp
-
     # ./string/394_decode_string_test.cpp
     # ./dynamic_programming/416_partition_equal_subset_sum_test.cpp
     # ./dynamic_programming/438_find_all_anagrams_test.cpp

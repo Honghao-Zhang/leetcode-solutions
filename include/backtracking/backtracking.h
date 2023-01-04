@@ -13,6 +13,10 @@ namespace backtracking
 		int totalNQueens(int n);
 		// 131 palindome partioning
 		std::vector<std::vector<std::string>> partition(std::string s);
+		// 91 decode ways
+		int numDecodings(std::string s);
+		// 22 generate parentheses
+		std::vector<std::string> generateParenthesis(int n);
 	};
 };
 #endif

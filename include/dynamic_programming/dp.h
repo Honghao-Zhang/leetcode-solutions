@@ -47,6 +47,8 @@ namespace dp
         int trapRainWater(std::vector<std::vector<int>> &heightMap);
         // 213 house robber ii
         int rob(std::vector<int> &nums);
+        // 5 longest palindromic substring
+        std::string longestPalindrome(std::string s);
     };
 }
 
