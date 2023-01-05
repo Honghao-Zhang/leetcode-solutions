@@ -27,6 +27,8 @@ namespace binary_tree
         TreeNode *sortedArrayToBST(std::vector<int> &nums);
         // 437. Path Sum III
         int pathSum3(TreeNode *root, int targetSum);
+        // 103 binary tree zigzag level order traversal
+        std::vector<std::vector<int>> zigzagLevelOrder(TreeNode *root);
     };
 };
 

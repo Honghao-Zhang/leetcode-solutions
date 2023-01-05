@@ -3,7 +3,9 @@ find_package(GTest REQUIRED)
 set(TARGET_NAME ${PROJECT_NAME}_test)
 
 add_executable(${TARGET_NAME}
-    ./backtracking/p22_generate_parentheses_test.cpp
+    ./binary_tree/p103_zigzag_level_order_traversal_test.cpp
+
+    # ./backtracking/p22_generate_parentheses_test.cpp
 
     # ./dynamic_programming/p5_longest_palindromic_substring_test.cpp
     # ./backtracking/91_decode_ways_test.cpp

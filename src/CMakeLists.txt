@@ -1,8 +1,10 @@
 set(TARGET_NAME ${PROJECT_NAME}_lib)
 
 add_library(${TARGET_NAME}
-	./backtracking/p22_generate_parentheses.cpp
-    #./dynamic_programming/p5_longest_palindromic_substring.cpp
+    ./binary_tree/p103_zigzag_level_order_traversal.cpp
+
+    # ./backtracking/p22_generate_parentheses.cpp
+    # ./dynamic_programming/p5_longest_palindromic_substring.cpp
     # ./backtracking/91_decode_ways.cpp
     # ./dynamic_programming/213_house_robber_ii.cpp
     # ./dynamic_programming/407_trapping_rain_water_ii.cpp
@@ -25,7 +27,8 @@ add_library(${TARGET_NAME}
     # ./substring/p76_minimum_window_substring.cpp
     # ./breadth_first_search/p79_word_search.cpp
     # ./breadth_first_search/p994_rotting_oranges.cpp
-    # ./binary_tree/helper.cpp
+    ./binary_tree/helper.cpp
+
     # ./binary_tree/p108_convert_sorted_array.cpp
     # ./binary_tree/p437_path_sum.cpp
     # ./matrix/p240_search_2d_matrix.cpp
